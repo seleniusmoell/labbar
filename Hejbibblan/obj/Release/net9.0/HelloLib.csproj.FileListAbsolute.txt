@@ -1,0 +1,11 @@
+/Users/tove/Code/labbet/Hejbibblan/bin/Release/net9.0/HelloLib.deps.json
+/Users/tove/Code/labbet/Hejbibblan/bin/Release/net9.0/HelloLib.dll
+/Users/tove/Code/labbet/Hejbibblan/bin/Release/net9.0/HelloLib.pdb
+/Users/tove/Code/labbet/Hejbibblan/obj/Release/net9.0/HelloLib.GeneratedMSBuildEditorConfig.editorconfig
+/Users/tove/Code/labbet/Hejbibblan/obj/Release/net9.0/HelloLib.AssemblyInfoInputs.cache
+/Users/tove/Code/labbet/Hejbibblan/obj/Release/net9.0/HelloLib.AssemblyInfo.cs
+/Users/tove/Code/labbet/Hejbibblan/obj/Release/net9.0/HelloLib.csproj.CoreCompileInputs.cache
+/Users/tove/Code/labbet/Hejbibblan/obj/Release/net9.0/HelloLib.dll
+/Users/tove/Code/labbet/Hejbibblan/obj/Release/net9.0/refint/HelloLib.dll
+/Users/tove/Code/labbet/Hejbibblan/obj/Release/net9.0/HelloLib.pdb
+/Users/tove/Code/labbet/Hejbibblan/obj/Release/net9.0/ref/HelloLib.dll

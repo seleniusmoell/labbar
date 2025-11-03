@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "DrSbwTWutrc=",
+  "success": true,
+  "projectFilePath": "/Users/tove/Code/labbet/Helloweb/Helloweb.csproj",
+  "expectedPackageFiles": [
+    "/Users/tove/.nuget/packages/hellolib/1.0.1/hellolib.1.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
