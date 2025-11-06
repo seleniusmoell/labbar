@@ -75,6 +75,7 @@ mkdir local-feed
 ```
 
 > Alternativt kan du hoppa över `add source` och ange `--source ./local-feed` när du lägger till paketet i webben.
+> **Obs! På Windows måste ex windowsvänlig sökväg angets, ex C:\code\dotnet-labb\local-feed**
 
 ---
 
