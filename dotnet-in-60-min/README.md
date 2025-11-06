@@ -27,7 +27,9 @@ mkdir dotnet-labb && cd dotnet-labb
 dotnet new classlib -n HelloLib -f net9.0
 ```
 
-**HelloLib/Class1.cs → ersätt med:**
+**Öppna lösningen i VSCode**
+
+Du har fått en klass "gratis" som heter Class1. Döp om den till Greeter och byt ut innehållet mot följande:
 
 ```csharp
 namespace HelloLib;
@@ -38,7 +40,10 @@ public static class Greeter
 }
 ```
 
-**HelloLib/HelloLib.csproj → lägg till paketmetadata:**
+**Nu ska vi titta på projektfilen HelloLib.csproj**
+
+I VSCode brukar den ligga som en vanlig fil. I vissa IDE:n, Jetbrains Rider till exempel, måste man högerklicka på projektet -> Edit-> .csproj
+Byt ut innehållet mot följande metadata:
 
 ```xml
 <Project Sdk="Microsoft.NET.Sdk">
@@ -57,6 +62,7 @@ public static class Greeter
 ---
 
 ## 2) Skapa lokal NuGet‑feed och packa
+Du ska nu göra en katalog och pekat ut den som källan till din lokala nuget-feed. Den kan egentligen ligga var som helst men i den incheckade koden ligger den i lösningsmappen. Vanligt är att lägga den antingen incheckad som här eller under C:\\.nuget eller ~/.nuget/ eller liknande.
 
 ```bash
 mkdir local-feed
@@ -72,7 +78,7 @@ mkdir local-feed
 
 ---
 
-## 3) Skapa webbappen (Razor Pages)
+## 3) Skapa webbapp som konsumerar nugetpaketet (Razor Pages)
 
 ```bash
 # I rotmappen dotnet-labb
@@ -93,7 +99,9 @@ cd HelloWeb
 
 ## 4) Använd biblioteket i UI
 
-**HelloWeb/Pages/Index.cshtml.cs → uppdatera:**
+**Öppna det nya projektet i VSCode och titta**
+
+Uppdatera innehållet i HelloWeb/Pages/Index.cshtml.cs (**obs! notera .cs!**) till följande:
 
 ```csharp
 using Microsoft.AspNetCore.Mvc.RazorPages;
@@ -111,7 +119,7 @@ public class IndexModel : PageModel
 }
 ```
 
-**HelloWeb/Pages/Index.cshtml → visa texten:**
+**Editera HelloWeb/Pages/Index.cshtml för att visa texten:**
 
 ```html
 @page
